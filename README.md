@@ -2,7 +2,7 @@
 
 Are you a marketer? PartnerFriendly is for you.
 
-When savvy users register for applications, they append their email with strings like "+yourapp" preceding "@theirdomain.com."
+When savvy users register for applications, they append their email with strings like "*+yourapp*" preceding their domain.
 
 Users do this to identify your organization if they receive unsolicited email from one of your marketing partners, such as a co-branded newsletter.
 
@@ -59,7 +59,9 @@ ProTip: opting for before_save or before_create instead of before_validation may
 In this case, simply rescue from the error with a redirect or existing authentication flash for "user already exists."
 
 ## Contributing
+
 Bug reports and pull requests are welcome.
+
 1. Fork it ( http://github.com/ryanckulp/partnerfriendly/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
